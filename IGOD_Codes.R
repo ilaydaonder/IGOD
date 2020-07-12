@@ -4,13 +4,18 @@
 
 # Required packages (install if necessary)
 # install.packages("readxl") 
-# install.packages("dplyr)
-# install.packages("writexl)
+# install.packages("dplyr")
+# install.packages("writexl")
+# install.packages("maps") 
+# install.packages("tidyr")
+# install.packages("tidyverse")
+# install.packages("roperators")
 library(readxl) # To read excel files
 library(dplyr) # To manipulate data frames
 library(writexl) # To write excel files
 
-# The original data sources used in constructing the analysis dataset are the following:
+
+# The original data sources used in constructing the IGOD are the following:
 ### 1. Global Terrorism Database (GTD) can be downloaded via: https://www.start.umd.edu/gtd/
 ##### Please note that GTD website allows you to download two data files: (1) GTD 1970-2018 and (2) GTD 1993. 
 ##### This dataset focuses on the time period from 2004 through 2016. So, downloading GTD 1971-2019 will be enough. 
